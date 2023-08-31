@@ -1,0 +1,21 @@
+
+ <a className="nav-link active" href="/business">Business </a>
+ <a className="nav-link active" href="/entertainmen"> Entertainmen</a>
+ <a className="nav-link active" href="/technology">Technology</a>
+ <a className="nav-link active" href="/health">Health</a>
+ <a className="nav-link active" href="/sports">Sports</a>
+ <a className="nav-link active" href="/science">Science</a>
+ /////////////////
+  // handlPreviousClick = async()=>{
+      //   this.setState({page:this.state.page - 1})
+      //   this.updateNews()
+      // }
+      // handlNextClick = async()=>{
+      //   this.setState({page:this.state.page + 1})
+      //   this.updateNews()
+      // }
+ /////////////////
+     {/* <div className='d-flex justify-content-between mb-3'>
+              <button type="button" disabled={this.state.page <= 1} className="btn btn-primary btn" onClick={this.handlPreviousClick}>&larr; Previous </button>
+              <button type="button" disabled={this.state.page + 1 > Math.ceil(this.state.totalResults/this.props.pageSize)}  className="btn btn-success btn" onClick={this.handlNextClick}> Next &rarr;</button>
+           </div> */}                 
